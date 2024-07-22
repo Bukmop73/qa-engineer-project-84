@@ -1,3 +1,4 @@
+---
 - summary: |
     Поиск товара по ключевому слову
   requirement: |
@@ -16,7 +17,7 @@
   requirement: |
     
   prerequisites:
-    Открыта сайт магазина
+    Открыт сайт магазина
   test-data: |
     
   steps:
