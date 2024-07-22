@@ -50,3 +50,29 @@
     - Вводим название "Sneakers"
   expected-result: |
     Список кроссовок.
+---
+- summary: |
+    Поиск товара по ключевому слову
+  requirement: |
+    При введении названия товара в окно поиска, отображается искомый товар.
+  prerequisites: |
+    Открыт сайт магазина https://hexlet-products-store.vercel.app/ на странице с кроссовками.
+  test-data: |
+ 
+  steps:
+В окне поиска товара ввести: "Sneakers".
+  expected-result: |
+Отображается список кроссовок которые есть в магазине.
+
+- summary: |
+    Проверка работы фильтра.
+  requirement: |
+    
+  prerequisites:
+    Открыт сайт магазина
+  test-data: |
+    
+  steps:
+    - Вводим название "Sneakers"
+  expected-result: |
+    Список кроссовок.
